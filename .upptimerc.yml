@@ -3,12 +3,28 @@ owner: incloodo # Your GitHub organization or username, where this repository li
 repo: status_pages # The name of this repository
 
 sites:
+  # ------- STAGING PAGES --------------
   - name: Incloodo Staging Services
     url:  https://staging.incloodo.com/
+    expectedStatusCodes:
+      - 404
+  - name: Incloodo Stating Login
+    url: https://staging.incloodo.com/api/json/v1/authentication/login
+    method: POST
+    body: '{ "email": "bad_user@test.com", "password": "bad_password", "stayLogged": false }'
+    expectedStatusCodes:
+      - 400    
+  # ------- PRODUCTION PAGES -----------
   - name: Incloodo Production Services
     url:  https://server.incloodo.com/
-
-    
+    expectedStatusCodes:
+      - 404
+   - name: Incloodo Production Login
+    url: https://server.incloodo.com/api/json/v1/authentication/login
+    method: POST
+    body: '{ "email": "bad_user@test.com", "password": "bad_password", "stayLogged": false }'
+    expectedStatusCodes:
+      - 400     
     
 assigness:
   - cannavit
