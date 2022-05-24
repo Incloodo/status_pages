@@ -23,18 +23,18 @@
     "icon": "https://favicons.githubusercontent.com/staging.incloodo.com",
     "slug": "incloodo-stating-login",
     "status": "down",
-    "uptime": "0.03%",
-    "uptimeDay": "0.03%",
-    "uptimeWeek": "0.03%",
-    "uptimeMonth": "0.03%",
-    "uptimeYear": "0.03%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 102,
     "timeDay": 102,
     "timeWeek": 102,
     "timeMonth": 102,
     "timeYear": 102,
     "dailyMinutesDown": {
-      "2022-05-24": 32
+      "2022-05-24": 73
     }
   },
   {
@@ -42,19 +42,19 @@
     "url": "https://server.incloodo.com/",
     "icon": "https://favicons.githubusercontent.com/server.incloodo.com",
     "slug": "incloodo-production-services",
-    "status": "down",
-    "uptime": "99.86%",
-    "uptimeDay": "99.86%",
-    "uptimeWeek": "99.86%",
-    "uptimeMonth": "99.86%",
-    "uptimeYear": "99.86%",
-    "time": 447,
-    "timeDay": 447,
-    "timeWeek": 447,
-    "timeMonth": 447,
-    "timeYear": 447,
+    "status": "up",
+    "uptime": "52.75%",
+    "uptimeDay": "52.75%",
+    "uptimeWeek": "52.75%",
+    "uptimeMonth": "52.75%",
+    "uptimeYear": "52.75%",
+    "time": 489,
+    "timeDay": 489,
+    "timeWeek": 489,
+    "timeMonth": 489,
+    "timeYear": 489,
     "dailyMinutesDown": {
-      "2022-05-24": 0
+      "2022-05-24": 41
     }
   },
   {
@@ -63,18 +63,18 @@
     "icon": "https://favicons.githubusercontent.com/server.incloodo.com",
     "slug": "incloodo-production-login",
     "status": "down",
-    "uptime": "0.05%",
-    "uptimeDay": "0.05%",
-    "uptimeWeek": "0.05%",
-    "uptimeMonth": "0.05%",
-    "uptimeYear": "0.05%",
+    "uptime": "0.03%",
+    "uptimeDay": "0.03%",
+    "uptimeWeek": "0.03%",
+    "uptimeMonth": "0.03%",
+    "uptimeYear": "0.03%",
     "time": 107,
     "timeDay": 107,
     "timeWeek": 107,
     "timeMonth": 107,
     "timeYear": 107,
     "dailyMinutesDown": {
-      "2022-05-24": 32
+      "2022-05-24": 73
     }
   }
 ]
