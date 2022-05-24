@@ -34,7 +34,7 @@
     "timeMonth": 102,
     "timeYear": 102,
     "dailyMinutesDown": {
-      "2022-05-24": 162
+      "2022-05-24": 189
     }
   },
   {
@@ -42,17 +42,17 @@
     "url": "https://server.incloodo.com/",
     "icon": "https://favicons.githubusercontent.com/server.incloodo.com",
     "slug": "incloodo-production-services",
-    "status": "up",
-    "uptime": "33.12%",
-    "uptimeDay": "33.12%",
-    "uptimeWeek": "33.12%",
-    "uptimeMonth": "33.12%",
-    "uptimeYear": "33.12%",
-    "time": 478,
-    "timeDay": 478,
-    "timeWeek": 478,
-    "timeMonth": 478,
-    "timeYear": 478,
+    "status": "down",
+    "uptime": "42.00%",
+    "uptimeDay": "42.00%",
+    "uptimeWeek": "42.00%",
+    "uptimeMonth": "42.00%",
+    "uptimeYear": "42.00%",
+    "time": 469,
+    "timeDay": 469,
+    "timeWeek": 469,
+    "timeMonth": 469,
+    "timeYear": 469,
     "dailyMinutesDown": {
       "2022-05-24": 118
     }
@@ -74,7 +74,7 @@
     "timeMonth": 107,
     "timeYear": 107,
     "dailyMinutesDown": {
-      "2022-05-24": 162
+      "2022-05-24": 189
     }
   }
 ]
