@@ -19,7 +19,7 @@ sites:
     url:  https://server.incloodo.com/
     expectedStatusCodes:
       - 404
-   - name: Incloodo Production Login
+  - name: Incloodo Production Login
     url: https://server.incloodo.com/api/json/v1/authentication/login
     method: POST
     body: '{ "email": "bad_user@test.com", "password": "bad_password", "stayLogged": false }'
