@@ -4,9 +4,9 @@ repo: status_pages # The name of this repository
 
 sites:
   - name: Incloodo Staging Services
-    url:  ${{ secrets.URL_STAGING }}
+    url:  https://staging.incloodo.com/
   - name: Incloodo Production Services
-    url:  ${{ secrets.URL_STAGING }}
+    url:  https://server.incloodo.com/
 
     
     
