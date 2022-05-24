@@ -1,8 +1,8 @@
 [
   {
     "name": "Incloodo Staging Services",
-    "url": "${{ secrets.URL_STAGING }}",
-    "icon": "https://favicons.githubusercontent.com/null",
+    "url": "https://staging.incloodo.com/",
+    "icon": "https://favicons.githubusercontent.com/staging.incloodo.com",
     "slug": "incloodo-staging-services",
     "status": "down",
     "uptime": "0.00%",
@@ -10,33 +10,33 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "time": 465,
+    "timeDay": 465,
+    "timeWeek": 465,
+    "timeMonth": 465,
+    "timeYear": 465,
     "dailyMinutesDown": {
-      "2022-05-24": 2
+      "2022-05-24": 4
     }
   },
   {
     "name": "Incloodo Production Services",
-    "url": "${{ secrets.URL_STAGING }}",
-    "icon": "https://favicons.githubusercontent.com/null",
+    "url": "https://server.incloodo.com/",
+    "icon": "https://favicons.githubusercontent.com/server.incloodo.com",
     "slug": "incloodo-production-services",
     "status": "down",
-    "uptime": "0.89%",
-    "uptimeDay": "0.89%",
-    "uptimeWeek": "0.89%",
-    "uptimeMonth": "0.89%",
-    "uptimeYear": "0.89%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "uptime": "0.51%",
+    "uptimeDay": "0.51%",
+    "uptimeWeek": "0.51%",
+    "uptimeMonth": "0.51%",
+    "uptimeYear": "0.51%",
+    "time": 404,
+    "timeDay": 404,
+    "timeWeek": 404,
+    "timeMonth": 404,
+    "timeYear": 404,
     "dailyMinutesDown": {
-      "2022-05-24": 2
+      "2022-05-24": 4
     }
   }
 ]
