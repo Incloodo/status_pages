@@ -5,18 +5,18 @@
     "icon": "https://favicons.githubusercontent.com/staging.incloodo.com",
     "slug": "incloodo-staging-services",
     "status": "down",
-    "uptime": "76.14%",
-    "uptimeDay": "35.95%",
-    "uptimeWeek": "76.14%",
-    "uptimeMonth": "76.14%",
-    "uptimeYear": "76.14%",
+    "uptime": "75.06%",
+    "uptimeDay": "32.10%",
+    "uptimeWeek": "75.06%",
+    "uptimeMonth": "75.06%",
+    "uptimeYear": "75.06%",
     "time": 587,
     "timeDay": 545,
     "timeWeek": 587,
     "timeMonth": 587,
     "timeYear": 587,
     "dailyMinutesDown": {
-      "2022-05-27": 398,
+      "2022-05-27": 454,
       "2022-05-26": 525
     }
   },
@@ -37,7 +37,7 @@
     "timeMonth": 144,
     "timeYear": 144,
     "dailyMinutesDown": {
-      "2022-05-27": 398,
+      "2022-05-27": 454,
       "2022-05-26": 1440,
       "2022-05-25": 1440,
       "2022-05-24": 572
@@ -49,18 +49,18 @@
     "icon": "https://favicons.githubusercontent.com/server.incloodo.com",
     "slug": "incloodo-production-services",
     "status": "down",
-    "uptime": "43.12%",
-    "uptimeDay": "86.93%",
-    "uptimeWeek": "43.12%",
-    "uptimeMonth": "43.12%",
-    "uptimeYear": "43.12%",
+    "uptime": "42.53%",
+    "uptimeDay": "87.03%",
+    "uptimeWeek": "42.53%",
+    "uptimeMonth": "42.53%",
+    "uptimeYear": "42.53%",
     "time": 542,
     "timeDay": 612,
     "timeWeek": 542,
     "timeMonth": 542,
     "timeYear": 542,
     "dailyMinutesDown": {
-      "2022-05-27": 0,
+      "2022-05-27": 55,
       "2022-05-26": 586,
       "2022-05-25": 1331,
       "2022-05-24": 279
@@ -83,7 +83,7 @@
     "timeMonth": 139,
     "timeYear": 139,
     "dailyMinutesDown": {
-      "2022-05-27": 398,
+      "2022-05-27": 454,
       "2022-05-26": 1440,
       "2022-05-25": 1440,
       "2022-05-24": 572
