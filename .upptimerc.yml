@@ -9,9 +9,9 @@ sites:
     expectedStatusCodes:
       - 404
   - name: Incloodo Stating Login
-    url: https://staging.incloodo.com/api/json/v1/authentication/login
+    url: http://staging.incloodo.com/api/json/v1/authentication/login   
     method: POST
-    body: '{ "email": "bad_user@test.com", "password": "bad_password", "stayLogged": false }'
+    body: '{ "username": "${{ env.USERNAME }}", "password": "${{ env.PASSWORD }}", "stayLogged": false }'
     expectedStatusCodes:
       - 400    
   # ------- PRODUCTION PAGES -----------
@@ -22,7 +22,7 @@ sites:
   - name: Incloodo Production Login
     url: https://server.incloodo.com/api/json/v1/authentication/login
     method: POST
-    body: '{ "email": "bad_user@test.com", "password": "bad_password", "stayLogged": false }'
+    body: '{ "username": "${{ env.USERNAME }}", "password": "${{ env.PASSWORD }}", "stayLogged": false }'
     expectedStatusCodes:
       - 400     
     
