@@ -11,7 +11,7 @@ sites:
   - name: Incloodo Stating Login
     url: http://staging.incloodo.com/api/json/v1/authentication/login   
     method: POST
-    body: '{ "username": "${{ env.USERNAME }}", "password": "${{ env.PASSWORD }}", "stayLogged": false }'
+    body: '{ "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.PASSWORD }}", "stayLogged": false }'
     expectedStatusCodes:
       - 400    
   # ------- PRODUCTION PAGES -----------
@@ -22,7 +22,7 @@ sites:
   - name: Incloodo Production Login
     url: https://server.incloodo.com/api/json/v1/authentication/login
     method: POST
-    body: '{ "username": "${{ env.USERNAME }}", "password": "${{ env.PASSWORD }}", "stayLogged": false }'
+    body: '{ "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.PASSWORD }}", "stayLogged": false }'
     expectedStatusCodes:
       - 400     
     
