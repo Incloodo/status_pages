@@ -13,7 +13,7 @@ sites:
     method: POST
     body: '{ "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.PASSWORD }}"}'
     expectedStatusCodes:
-      - 400
+      - 404
   # ------- PRODUCTION PAGES -----------
   - name: Incloodo Production Services
     url:  https://server.incloodo.com/api/json/v1/interests
@@ -24,7 +24,7 @@ sites:
     method: POST
     body: '{ "username": "$USERNAME", "password": "$PASSWORD" }'
     expectedStatusCodes:
-      - 400
+      - 404
     
 assigness:
   - cannavit
