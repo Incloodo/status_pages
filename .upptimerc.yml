@@ -13,7 +13,7 @@ sites:
     method: POST
     body: '{ "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.PASSWORD }}"}'
     expectedStatusCodes:
-      - 200
+      - 400
   # ------- PRODUCTION PAGES -----------
   - name: Incloodo Production Services
     url:  https://server.incloodo.com/api/json/v1/interests
@@ -22,9 +22,9 @@ sites:
   - name: Incloodo Production Login
     url: https://server.incloodo.com/api/json/v1/authentication/login
     method: POST
-    body: '{ "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.PASSWORD }}" }'
+    body: '{ "username": "$USERNAME", "password": "$PASSWORD" }'
     expectedStatusCodes:
-      - 200
+      - 400
     
 assigness:
   - cannavit
