@@ -5,26 +5,26 @@ repo: status_pages # The name of this repository
 sites:
   # ------- STAGING PAGES --------------
   - name: Incloodo Staging Services
-    url:  https://staging.incloodo.com/
+    url:  http://staging.incloodo.com/api/json/v1/interests
     expectedStatusCodes:
-      - 404
+      - 200
   - name: Incloodo Stating Login
     url: http://staging.incloodo.com/api/json/v1/authentication/login   
     method: POST
-    body: '{ "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.PASSWORD }}", "stayLogged": false }'
+    body: '{ "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.PASSWORD }}"}'
     expectedStatusCodes:
-      - 400    
+      - 200
   # ------- PRODUCTION PAGES -----------
   - name: Incloodo Production Services
-    url:  https://server.incloodo.com/
+    url:  https://server.incloodo.com/api/json/v1/interests
     expectedStatusCodes:
-      - 404
+      - 200
   - name: Incloodo Production Login
     url: https://server.incloodo.com/api/json/v1/authentication/login
     method: POST
-    body: '{ "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.PASSWORD }}", "stayLogged": false }'
+    body: '{ "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.PASSWORD }}" }'
     expectedStatusCodes:
-      - 400     
+      - 200
     
 assigness:
   - cannavit
