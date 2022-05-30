@@ -8,23 +8,23 @@ sites:
     url:  http://staging.incloodo.com/api/json/v1/interests
     expectedStatusCodes:
       - 200
-  - name: Incloodo Stating Login
-    url: http://staging.incloodo.com/api/json/v1/authentication/login   
-    method: POST
-    body: '{ "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.PASSWORD }}"}'
-    expectedStatusCodes:
-      - 404
+#   - name: Incloodo Stating Login
+#     url: http://staging.incloodo.com/api/json/v1/authentication/login   
+#     method: POST
+#     body: '{ "username": "${{ secrets.USERNAME }}", "password": "${{ secrets.PASSWORD }}"}'
+#     expectedStatusCodes:
+#       - 404
   # ------- PRODUCTION PAGES -----------
   - name: Incloodo Production Services
     url:  https://server.incloodo.com/api/json/v1/interests
     expectedStatusCodes:
       - 200
-  - name: Incloodo Production Login
-    url: https://server.incloodo.com/api/json/v1/authentication/login
-    method: POST
-    body: '{ "username": "$USERNAME", "password": "$PASSWORD" }'
-    expectedStatusCodes:
-      - 404
+#   - name: Incloodo Production Login
+#     url: https://server.incloodo.com/api/json/v1/authentication/login
+#     method: POST
+#     body: '{ "username": "$USERNAME", "password": "$PASSWORD" }'
+#     expectedStatusCodes:
+#       - 404
     
 assigness:
   - cannavit
