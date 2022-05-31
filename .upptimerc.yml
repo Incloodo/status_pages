@@ -27,7 +27,6 @@ sites:
 #       - 404
     
 assigness:
-  - cannavit
   - incloododev
 
 status-website:
