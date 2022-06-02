@@ -1,7 +1,7 @@
 url: http://staging.incloodo.com/api/json/v1/interests
-status: down
-code: 503
-responseTime: 371
-lastUpdated: 2022-06-01T23:20:41.520Z
+status: up
+code: 200
+responseTime: 680
+lastUpdated: 2022-06-02T08:55:11.920Z
 startTime: Tue May 24 2022 14:13:18 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
